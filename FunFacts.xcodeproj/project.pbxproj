@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		676E646D1C63EA110040EA9D /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 676E646C1C63EA110040EA9D /* FactBook.m */; };
+		676E64701C67B79A0040EA9D /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 676E646F1C67B79A0040EA9D /* ColorWheel.m */; };
 		6779B2841C630BB9008585B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6779B2831C630BB9008585B4 /* main.m */; };
 		6779B2871C630BB9008585B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6779B2861C630BB9008585B4 /* AppDelegate.m */; };
 		6779B28A1C630BB9008585B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6779B2891C630BB9008585B4 /* ViewController.m */; };
@@ -38,6 +39,8 @@
 /* Begin PBXFileReference section */
 		676E646B1C63EA110040EA9D /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
 		676E646C1C63EA110040EA9D /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
+		676E646E1C67B79A0040EA9D /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		676E646F1C67B79A0040EA9D /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 		6779B27F1C630BB9008585B4 /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6779B2831C630BB9008585B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6779B2851C630BB9008585B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				6779B2891C630BB9008585B4 /* ViewController.m */,
 				676E646B1C63EA110040EA9D /* FactBook.h */,
 				676E646C1C63EA110040EA9D /* FactBook.m */,
+				676E646E1C67B79A0040EA9D /* ColorWheel.h */,
+				676E646F1C67B79A0040EA9D /* ColorWheel.m */,
 				6779B28B1C630BB9008585B4 /* Main.storyboard */,
 				6779B28E1C630BB9008585B4 /* Assets.xcassets */,
 				6779B2901C630BB9008585B4 /* LaunchScreen.storyboard */,
@@ -279,6 +284,7 @@
 				6779B2871C630BB9008585B4 /* AppDelegate.m in Sources */,
 				676E646D1C63EA110040EA9D /* FactBook.m in Sources */,
 				6779B2841C630BB9008585B4 /* main.m in Sources */,
+				676E64701C67B79A0040EA9D /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
