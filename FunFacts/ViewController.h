@@ -17,8 +17,9 @@
 @property (weak, nonatomic) IBOutlet UILabel *funFactLabel;
 @property (strong, nonatomic) FactBook *factbook;
 @property (strong, nonatomic) ColorWheel *colorWheel;
+@property (weak, nonatomic) IBOutlet UIButton *funFactButton;
 
-- (UIColor *)randomColor;
+
 
 @end
 

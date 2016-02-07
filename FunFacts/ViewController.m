@@ -22,7 +22,9 @@
     self.factbook = [[FactBook alloc] init];
     self.colorWheel = [[ColorWheel alloc] init];
     
-    self.view.backgroundColor = [self.colorWheel randomColor];
+    UIColor *randomColor = [self.colorWheel randomColor];
+    self.view.backgroundColor = randomColor;
+    self.funFactButton.tintColor = randomColor;
     self.funFactLabel.text = [self.factbook randomFact]; // randomFact is a instance method.
 }
 
@@ -31,8 +33,9 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)showFunFact {
-    
-    self.view.backgroundColor = [self.colorWheel randomColor];
+    UIColor *randomColor = [self.colorWheel randomColor];
+    self.view.backgroundColor = randomColor;
+    self.funFactButton.tintColor = randomColor;
     self.funFactLabel.text = [self.factbook randomFact];
 }
 

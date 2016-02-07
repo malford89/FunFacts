@@ -27,7 +27,7 @@
     return self;
 }
 
-- (UIColor *)randomColor { //Creates a new meathod for random color
+- (UIColor *)randomColor { //Creates a new method for random color
     int random = arc4random_uniform((int)self.colors.count);
     return [self.colors objectAtIndex:random];
 }

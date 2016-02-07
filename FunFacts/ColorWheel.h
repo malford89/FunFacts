@@ -13,4 +13,6 @@
 
 @property (strong, nonatomic) NSArray *colors;
 
+- (UIColor *)randomColor;
+
 @end
